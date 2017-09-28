@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YTToast_Example' do
+  pod 'YTToast', :path => '../'
+
+  target 'YTToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
