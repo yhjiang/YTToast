@@ -1,0 +1,6 @@
+framework module YTToast {
+  umbrella header "YTToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

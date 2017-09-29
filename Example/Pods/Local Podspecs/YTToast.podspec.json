@@ -1,0 +1,31 @@
+{
+  "name": "YTToast",
+  "version": "0.1.0",
+  "summary": "an Objective-C Toast Project Package based on CRToast",
+  "description": "an Objective-C Toast Project Package based on CRToast.",
+  "homepage": "https://github.com/yhjiang/YTToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yhjiang": "iyhjiang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yhjiang/YTToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "CRToast": [
+      "~> 0.0.9"
+    ]
+  }
+}

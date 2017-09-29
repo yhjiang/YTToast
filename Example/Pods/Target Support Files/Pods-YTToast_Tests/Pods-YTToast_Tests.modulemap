@@ -1,0 +1,6 @@
+framework module Pods_YTToast_Tests {
+  umbrella header "Pods-YTToast_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

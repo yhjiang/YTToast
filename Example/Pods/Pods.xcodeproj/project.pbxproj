@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C770FF1E709DCF10B1DFCD17FBFBF7 /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7139809EBD1037FC80C1DA1EE0C8615 /* CRToastManager.m */; };
+		1EC245D2C00C8778580240F7D38D9A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86355B6D9215BE2183BF818921A693BB /* Foundation.framework */; };
+		269590A3761FDE2C3A5200963178E508 /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8017B99BABD5CA7CDB70A3F2117C76C5 /* CRToastView.m */; };
+		33952F3DFF5C4B7319C119B24F2272EB /* CRToastWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 31905F9C68BA18DBB45DA64781922200 /* CRToastWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34B7736ED876B22953764A11FCDD3DCE /* Pods-YTToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17D68C2331A8E242154AD7276A7A06 /* Pods-YTToast_Example-dummy.m */; };
+		376D5ADAC2153D1C81478A50B5500090 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E33E66B8D42E0F9EB5333FAA855270 /* CRToastViewController.m */; };
+		4B559C5BEDC25D068892BD541EB91E0F /* CRToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B76F9CD4C7C55B081BDDCB282597CC9 /* CRToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60069505BDDC11BD5D9CE424D688BF3C /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = B02827393802D18C7A81644A918F1826 /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D439015E47EF5A4D53839A81A3AF6D /* YTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBD1B6335EB8E7656CC0B9A70257FE /* YTToast.m */; };
+		641D149A3217E9EB7A0FD8297F6DC3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86355B6D9215BE2183BF818921A693BB /* Foundation.framework */; };
+		647A2BEABCE1D7D1E1D73C3FFB6AD848 /* Pods-YTToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77873260188886FB2C3394BFE9636D7 /* Pods-YTToast_Tests-dummy.m */; };
+		6FC583A8D85E9DFB0DB1C1B30C50ABB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86355B6D9215BE2183BF818921A693BB /* Foundation.framework */; };
+		726EECC4B50C330332FD6A3DDAE3A8C2 /* CRToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735184D448E7CE182B9F2FD8AD1B3C66 /* CRToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7336DF43C86BA43F7DA4E2986ABDF1EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C09D3F7DD82AF076C95DC4643AB996 /* UIKit.framework */; };
+		7361CA6EE7A7533E9AF657D8DFCB1B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86355B6D9215BE2183BF818921A693BB /* Foundation.framework */; };
+		7E40AF653E123E67207A20D39C0B7DB0 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0283AB1D96604BECA7675DFC0D1C1A /* CRToastConfig.m */; };
+		8BF276E4537C430F4A29B9DD07877BA5 /* YTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 44124753192B66B9B3A1E221373FF3C7 /* YTToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DA67834247A27CA464B516BD0CCFF3 /* Pods-YTToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEBCCB935FB18BE3D94AE8C17C71DB6 /* Pods-YTToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CE220B3B680C8BB7020C021E3D477F /* YTToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 506045E8A2B2199B00A79117F75DF12A /* YTToast-dummy.m */; };
+		A5060C660744D7DE6B3762FAFC5F8787 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2072040B244854464DCBBB3A138D8729 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1ADB187C82E2DE4B024CCE3D791BC7 /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B573BBBF842A26D1915B519E201C0C50 /* CRToastWindow.m */; };
+		AEC40ABB7E2DDDC1E5BBE42F8F821C9E /* CRToastViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9796152A67FC07E5AB4114EDD6E7E4F6 /* CRToastViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF4987D7B1CAF896AE985E016A872FC1 /* CRToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96AF33B6E76058126F623C108124A16 /* CRToast.framework */; };
+		B90B06FEFB499D15DEE98E871969DEFB /* Pods-YTToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E69F48E4EC058C9D462D36FA5E9D8B20 /* Pods-YTToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2AF445D0DBC6D4B2BEE356DA997B247 /* CRToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339653633508D6732B1210577D0CB5B4 /* CRToast-dummy.m */; };
+		D5D9A5626E0DE83ADAC91BD45C64CDD8 /* YTToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ABFE7A121D7A2525885420FCDDB0D4 /* YTToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD26A3F4D604D2DBA873C02FDABC02E3 /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5070466A3FAD7B5D36F96C89ECCB7147 /* CRToastLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE921176C535B17DBAB712151E92A07D /* CRToastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC401D3D57A44AF7D469A8CAC496745 /* CRToastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2B0382C3CE0192A4FD8182C95C8031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CBA859A1ABC3C9CAE75886969B9592;
+			remoteInfo = CRToast;
+		};
+		C1CEF73E1554A4E51F331A4C89D3887B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC73A4A0ACA9CC1306A8FD41CABCF9E0;
+			remoteInfo = YTToast;
+		};
+		E1CE89C46E858E3A92524E586B66741C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CBA859A1ABC3C9CAE75886969B9592;
+			remoteInfo = CRToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00865F974646A595E28FC2FFE5D685C6 /* Pods-YTToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04EF34BBB11F19A2DBA59A6BED7364C9 /* Pods-YTToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YTToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A4AC741EB9C00EBDB12347FA4CEE91A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204641EE317DA2E240D4D176AD4CAA96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2072040B244854464DCBBB3A138D8729 /* CRToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastConfig.h; path = CRToast/CRToastConfig.h; sourceTree = "<group>"; };
+		20FED259A2AC4D5A18DC87BBA13F3551 /* Pods-YTToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YTToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CD4B47BE9EA534765F12FE695E37C2E /* Pods-YTToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YTToast_Example.modulemap"; sourceTree = "<group>"; };
+		31905F9C68BA18DBB45DA64781922200 /* CRToastWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastWindow.h; path = CRToast/CRToastWindow.h; sourceTree = "<group>"; };
+		333F8B6891B4846B6D5DD5A84150D641 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339653633508D6732B1210577D0CB5B4 /* CRToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRToast-dummy.m"; sourceTree = "<group>"; };
+		39ABFE7A121D7A2525885420FCDDB0D4 /* YTToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTToast-umbrella.h"; sourceTree = "<group>"; };
+		3B76F9CD4C7C55B081BDDCB282597CC9 /* CRToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastView.h; path = CRToast/CRToastView.h; sourceTree = "<group>"; };
+		40ACC65F9DA6D6803C8581333FE12987 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A4D35609A215C8FB3469D2C822E437 /* Pods-YTToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		44124753192B66B9B3A1E221373FF3C7 /* YTToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTToast.h; sourceTree = "<group>"; };
+		47BBCF7D0D54905B0D6DB09BE4C5C3CB /* Pods-YTToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		506045E8A2B2199B00A79117F75DF12A /* YTToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTToast-dummy.m"; sourceTree = "<group>"; };
+		5070466A3FAD7B5D36F96C89ECCB7147 /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastLayoutHelpers.h; path = CRToast/CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		5E0D4D3481879C56799ABEAB0CDB8797 /* YTToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTToast-prefix.pch"; sourceTree = "<group>"; };
+		5F4EB02C7A137B08B5A64B280BF047D5 /* CRToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CRToast.framework; path = CRToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D2A296474A6BF8D6FDED0026F3AF05 /* YTToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YTToast.modulemap; sourceTree = "<group>"; };
+		61B32F913255901B13590D645DEBDCD5 /* Pods-YTToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6DBF31AB0DAD5847D0B562B5A6CFBE92 /* Pods_YTToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YTToast_Example.framework; path = "Pods-YTToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		735184D448E7CE182B9F2FD8AD1B3C66 /* CRToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRToast-umbrella.h"; sourceTree = "<group>"; };
+		75CE144AB366349B57289A87F5F33653 /* Pods_YTToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YTToast_Tests.framework; path = "Pods-YTToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E33E66B8D42E0F9EB5333FAA855270 /* CRToastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastViewController.m; path = CRToast/CRToastViewController.m; sourceTree = "<group>"; };
+		77E19E5ADE67B68030FB57342F49E77C /* YTToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YTToast.framework; path = YTToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8017B99BABD5CA7CDB70A3F2117C76C5 /* CRToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastView.m; path = CRToast/CRToastView.m; sourceTree = "<group>"; };
+		8620F91BF19DB8C2B0ECE66D64B179C0 /* Pods-YTToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86355B6D9215BE2183BF818921A693BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CEBCCB935FB18BE3D94AE8C17C71DB6 /* Pods-YTToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YTToast_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9796152A67FC07E5AB4114EDD6E7E4F6 /* CRToastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastViewController.h; path = CRToast/CRToastViewController.h; sourceTree = "<group>"; };
+		97C09D3F7DD82AF076C95DC4643AB996 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A55ABD5E53A334EA22DA1E6471EC4C2F /* CRToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CRToast.modulemap; sourceTree = "<group>"; };
+		AA59238D1AB90519FB48629C773064EC /* Pods-YTToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YTToast_Tests.modulemap"; sourceTree = "<group>"; };
+		AEC401D3D57A44AF7D469A8CAC496745 /* CRToastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastManager.h; path = CRToast/CRToastManager.h; sourceTree = "<group>"; };
+		B02827393802D18C7A81644A918F1826 /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = CRToast/CRToast.h; sourceTree = "<group>"; };
+		B0FBD1B6335EB8E7656CC0B9A70257FE /* YTToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTToast.m; sourceTree = "<group>"; };
+		B573BBBF842A26D1915B519E201C0C50 /* CRToastWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastWindow.m; path = CRToast/CRToastWindow.m; sourceTree = "<group>"; };
+		B77873260188886FB2C3394BFE9636D7 /* Pods-YTToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YTToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		B8B6EB4494C1B40FFC8F100D82DB573A /* Pods-YTToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		BD17D68C2331A8E242154AD7276A7A06 /* Pods-YTToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YTToast_Example-dummy.m"; sourceTree = "<group>"; };
+		BED11DA0844F33B09448B91C9DB1B1DD /* YTToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTToast.xcconfig; sourceTree = "<group>"; };
+		C4958F0C8A7C8CDA447D4C3502028140 /* Pods-YTToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTToast_Example-resources.sh"; sourceTree = "<group>"; };
+		C70DCFC82CAA750031BD55E5660F9D37 /* Pods-YTToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YTToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C96AF33B6E76058126F623C108124A16 /* CRToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE31EC8BB757798132570537B5CF5FCA /* CRToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRToast.xcconfig; sourceTree = "<group>"; };
+		DC736C2965D5FC7443202188235221CD /* Pods-YTToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YTToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E69F48E4EC058C9D462D36FA5E9D8B20 /* Pods-YTToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YTToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7139809EBD1037FC80C1DA1EE0C8615 /* CRToastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastManager.m; path = CRToast/CRToastManager.m; sourceTree = "<group>"; };
+		E7E1A6F5E6CDD5A1C713118816E0D1FF /* Pods-YTToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YTToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE0283AB1D96604BECA7675DFC0D1C1A /* CRToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastConfig.m; path = CRToast/CRToastConfig.m; sourceTree = "<group>"; };
+		F0B099F8E3D026E37CC2A18C6418AEA2 /* CRToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRToast-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9159B50AB607A6F914F6E55302B6AFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641D149A3217E9EB7A0FD8297F6DC3F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB97E1B7474CA2CFCB5353B0D440D9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7361CA6EE7A7533E9AF657D8DFCB1B54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F619D2DD81317C5B50F539F58A9B3EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC583A8D85E9DFB0DB1C1B30C50ABB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47FE761BFEA2D46E3F4F28E210D2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4987D7B1CAF896AE985E016A872FC1 /* CRToast.framework in Frameworks */,
+				1EC245D2C00C8778580240F7D38D9A17 /* Foundation.framework in Frameworks */,
+				7336DF43C86BA43F7DA4E2986ABDF1EF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D64AB7958687773757D50CBFCB7DB83 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				86355B6D9215BE2183BF818921A693BB /* Foundation.framework */,
+				97C09D3F7DD82AF076C95DC4643AB996 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		15147ECB6CD2262186B4CF6DCA313191 /* Pods-YTToast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				333F8B6891B4846B6D5DD5A84150D641 /* Info.plist */,
+				2CD4B47BE9EA534765F12FE695E37C2E /* Pods-YTToast_Example.modulemap */,
+				04EF34BBB11F19A2DBA59A6BED7364C9 /* Pods-YTToast_Example-acknowledgements.markdown */,
+				20FED259A2AC4D5A18DC87BBA13F3551 /* Pods-YTToast_Example-acknowledgements.plist */,
+				BD17D68C2331A8E242154AD7276A7A06 /* Pods-YTToast_Example-dummy.m */,
+				E7E1A6F5E6CDD5A1C713118816E0D1FF /* Pods-YTToast_Example-frameworks.sh */,
+				C4958F0C8A7C8CDA447D4C3502028140 /* Pods-YTToast_Example-resources.sh */,
+				8CEBCCB935FB18BE3D94AE8C17C71DB6 /* Pods-YTToast_Example-umbrella.h */,
+				8620F91BF19DB8C2B0ECE66D64B179C0 /* Pods-YTToast_Example.debug.xcconfig */,
+				41A4D35609A215C8FB3469D2C822E437 /* Pods-YTToast_Example.release.xcconfig */,
+			);
+			name = "Pods-YTToast_Example";
+			path = "Target Support Files/Pods-YTToast_Example";
+			sourceTree = "<group>";
+		};
+		19FCFDCC89DBD32E72BCDBFEAD7621B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA7886F2B39364F04FF6DF179694B3CC /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		22C1D0B64BE871785CE037B239393432 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				204641EE317DA2E240D4D176AD4CAA96 /* Info.plist */,
+				60D2A296474A6BF8D6FDED0026F3AF05 /* YTToast.modulemap */,
+				BED11DA0844F33B09448B91C9DB1B1DD /* YTToast.xcconfig */,
+				506045E8A2B2199B00A79117F75DF12A /* YTToast-dummy.m */,
+				5E0D4D3481879C56799ABEAB0CDB8797 /* YTToast-prefix.pch */,
+				39ABFE7A121D7A2525885420FCDDB0D4 /* YTToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YTToast";
+			sourceTree = "<group>";
+		};
+		24D80EFA84EE9456E807AC1863A82B61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4068631D8F78F41D2713046057A8845B /* YTToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25287E83E2FDA60A7FB5BD86E842E873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96AF33B6E76058126F623C108124A16 /* CRToast.framework */,
+				0D64AB7958687773757D50CBFCB7DB83 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30EB636C4F899F0A85B7282C3E97AD9F /* Pods-YTToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A4AC741EB9C00EBDB12347FA4CEE91A /* Info.plist */,
+				AA59238D1AB90519FB48629C773064EC /* Pods-YTToast_Tests.modulemap */,
+				C70DCFC82CAA750031BD55E5660F9D37 /* Pods-YTToast_Tests-acknowledgements.markdown */,
+				00865F974646A595E28FC2FFE5D685C6 /* Pods-YTToast_Tests-acknowledgements.plist */,
+				B77873260188886FB2C3394BFE9636D7 /* Pods-YTToast_Tests-dummy.m */,
+				61B32F913255901B13590D645DEBDCD5 /* Pods-YTToast_Tests-frameworks.sh */,
+				B8B6EB4494C1B40FFC8F100D82DB573A /* Pods-YTToast_Tests-resources.sh */,
+				E69F48E4EC058C9D462D36FA5E9D8B20 /* Pods-YTToast_Tests-umbrella.h */,
+				DC736C2965D5FC7443202188235221CD /* Pods-YTToast_Tests.debug.xcconfig */,
+				47BBCF7D0D54905B0D6DB09BE4C5C3CB /* Pods-YTToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-YTToast_Tests";
+			path = "Target Support Files/Pods-YTToast_Tests";
+			sourceTree = "<group>";
+		};
+		4068631D8F78F41D2713046057A8845B /* YTToast */ = {
+			isa = PBXGroup;
+			children = (
+				19FCFDCC89DBD32E72BCDBFEAD7621B1 /* Pod */,
+				22C1D0B64BE871785CE037B239393432 /* Support Files */,
+			);
+			name = YTToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72E3BD6535E128B69D1734F4B2D3A3DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55ABD5E53A334EA22DA1E6471EC4C2F /* CRToast.modulemap */,
+				CE31EC8BB757798132570537B5CF5FCA /* CRToast.xcconfig */,
+				339653633508D6732B1210577D0CB5B4 /* CRToast-dummy.m */,
+				F0B099F8E3D026E37CC2A18C6418AEA2 /* CRToast-prefix.pch */,
+				735184D448E7CE182B9F2FD8AD1B3C66 /* CRToast-umbrella.h */,
+				40ACC65F9DA6D6803C8581333FE12987 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CRToast";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				24D80EFA84EE9456E807AC1863A82B61 /* Development Pods */,
+				25287E83E2FDA60A7FB5BD86E842E873 /* Frameworks */,
+				DE75BE81622A17B7E5792D3A4C199ED2 /* Pods */,
+				9C854FFAA056D29856E0D3CABCDB0BB7 /* Products */,
+				ACC71E0921E9A23D4B78D963CDCC9D7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C854FFAA056D29856E0D3CABCDB0BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F4EB02C7A137B08B5A64B280BF047D5 /* CRToast.framework */,
+				6DBF31AB0DAD5847D0B562B5A6CFBE92 /* Pods_YTToast_Example.framework */,
+				75CE144AB366349B57289A87F5F33653 /* Pods_YTToast_Tests.framework */,
+				77E19E5ADE67B68030FB57342F49E77C /* YTToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC71E0921E9A23D4B78D963CDCC9D7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15147ECB6CD2262186B4CF6DCA313191 /* Pods-YTToast_Example */,
+				30EB636C4F899F0A85B7282C3E97AD9F /* Pods-YTToast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE75BE81622A17B7E5792D3A4C199ED2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9DDD3D126AEE28938009AFE5B42C58D /* CRToast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9DDD3D126AEE28938009AFE5B42C58D /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				B02827393802D18C7A81644A918F1826 /* CRToast.h */,
+				2072040B244854464DCBBB3A138D8729 /* CRToastConfig.h */,
+				EE0283AB1D96604BECA7675DFC0D1C1A /* CRToastConfig.m */,
+				5070466A3FAD7B5D36F96C89ECCB7147 /* CRToastLayoutHelpers.h */,
+				AEC401D3D57A44AF7D469A8CAC496745 /* CRToastManager.h */,
+				E7139809EBD1037FC80C1DA1EE0C8615 /* CRToastManager.m */,
+				3B76F9CD4C7C55B081BDDCB282597CC9 /* CRToastView.h */,
+				8017B99BABD5CA7CDB70A3F2117C76C5 /* CRToastView.m */,
+				9796152A67FC07E5AB4114EDD6E7E4F6 /* CRToastViewController.h */,
+				76E33E66B8D42E0F9EB5333FAA855270 /* CRToastViewController.m */,
+				31905F9C68BA18DBB45DA64781922200 /* CRToastWindow.h */,
+				B573BBBF842A26D1915B519E201C0C50 /* CRToastWindow.m */,
+				72E3BD6535E128B69D1734F4B2D3A3DB /* Support Files */,
+			);
+			name = CRToast;
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		EA7886F2B39364F04FF6DF179694B3CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44124753192B66B9B3A1E221373FF3C7 /* YTToast.h */,
+				B0FBD1B6335EB8E7656CC0B9A70257FE /* YTToast.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F54220B6EA414912250EB9594C4C4F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9A5626E0DE83ADAC91BD45C64CDD8 /* YTToast-umbrella.h in Headers */,
+				8BF276E4537C430F4A29B9DD07877BA5 /* YTToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5494BE65CBA4EAF738ED51E1B3A66A6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DA67834247A27CA464B516BD0CCFF3 /* Pods-YTToast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A61EBAAE577BC00E8EAE5F2141DD26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726EECC4B50C330332FD6A3DDAE3A8C2 /* CRToast-umbrella.h in Headers */,
+				60069505BDDC11BD5D9CE424D688BF3C /* CRToast.h in Headers */,
+				A5060C660744D7DE6B3762FAFC5F8787 /* CRToastConfig.h in Headers */,
+				FD26A3F4D604D2DBA873C02FDABC02E3 /* CRToastLayoutHelpers.h in Headers */,
+				FE921176C535B17DBAB712151E92A07D /* CRToastManager.h in Headers */,
+				4B559C5BEDC25D068892BD541EB91E0F /* CRToastView.h in Headers */,
+				AEC40ABB7E2DDDC1E5BBE42F8F821C9E /* CRToastViewController.h in Headers */,
+				33952F3DFF5C4B7319C119B24F2272EB /* CRToastWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992C43411C02945EC392F1DC638426D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90B06FEFB499D15DEE98E871969DEFB /* Pods-YTToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59CBA859A1ABC3C9CAE75886969B9592 /* CRToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05B26D132F3879F923727138D5D6947 /* Build configuration list for PBXNativeTarget "CRToast" */;
+			buildPhases = (
+				12575524D41B1DAD9BEDAD63D2483AC4 /* Sources */,
+				F619D2DD81317C5B50F539F58A9B3EA5 /* Frameworks */,
+				69A61EBAAE577BC00E8EAE5F2141DD26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRToast;
+			productName = CRToast;
+			productReference = 5F4EB02C7A137B08B5A64B280BF047D5 /* CRToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EA6A146B16B46D50E873BCC1EA98E7E /* Pods-YTToast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AB1DB9255339BD1D9345AE2949F0F8 /* Build configuration list for PBXNativeTarget "Pods-YTToast_Example" */;
+			buildPhases = (
+				F3F512CC3CDD15C5CE71C0B85739006F /* Sources */,
+				9159B50AB607A6F914F6E55302B6AFFE /* Frameworks */,
+				5494BE65CBA4EAF738ED51E1B3A66A6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9918BF81E37BFB096E758334592D11 /* PBXTargetDependency */,
+				2068CC06FF3C6F01FC7BB9F9155A7CC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-YTToast_Example";
+			productName = "Pods-YTToast_Example";
+			productReference = 6DBF31AB0DAD5847D0B562B5A6CFBE92 /* Pods_YTToast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC1804345DF8D490412DC18352BA9C93 /* Pods-YTToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFFA5A72DEA36CFE0CB66C3696011FA /* Build configuration list for PBXNativeTarget "Pods-YTToast_Tests" */;
+			buildPhases = (
+				82D629928C71079948E90AF48398C69C /* Sources */,
+				DB97E1B7474CA2CFCB5353B0D440D9D6 /* Frameworks */,
+				992C43411C02945EC392F1DC638426D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YTToast_Tests";
+			productName = "Pods-YTToast_Tests";
+			productReference = 75CE144AB366349B57289A87F5F33653 /* Pods_YTToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC73A4A0ACA9CC1306A8FD41CABCF9E0 /* YTToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87363C5F44CAAC943E025E5223F1516E /* Build configuration list for PBXNativeTarget "YTToast" */;
+			buildPhases = (
+				6E14DD18DC81055B0C356A55D779F45F /* Sources */,
+				FC47FE761BFEA2D46E3F4F28E210D2A8 /* Frameworks */,
+				0F54220B6EA414912250EB9594C4C4F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE59F2129B3478B35FC62C59F87BB26 /* PBXTargetDependency */,
+			);
+			name = YTToast;
+			productName = YTToast;
+			productReference = 77E19E5ADE67B68030FB57342F49E77C /* YTToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C854FFAA056D29856E0D3CABCDB0BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CBA859A1ABC3C9CAE75886969B9592 /* CRToast */,
+				5EA6A146B16B46D50E873BCC1EA98E7E /* Pods-YTToast_Example */,
+				AC1804345DF8D490412DC18352BA9C93 /* Pods-YTToast_Tests */,
+				EC73A4A0ACA9CC1306A8FD41CABCF9E0 /* YTToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12575524D41B1DAD9BEDAD63D2483AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF445D0DBC6D4B2BEE356DA997B247 /* CRToast-dummy.m in Sources */,
+				7E40AF653E123E67207A20D39C0B7DB0 /* CRToastConfig.m in Sources */,
+				11C770FF1E709DCF10B1DFCD17FBFBF7 /* CRToastManager.m in Sources */,
+				269590A3761FDE2C3A5200963178E508 /* CRToastView.m in Sources */,
+				376D5ADAC2153D1C81478A50B5500090 /* CRToastViewController.m in Sources */,
+				AB1ADB187C82E2DE4B024CCE3D791BC7 /* CRToastWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E14DD18DC81055B0C356A55D779F45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CE220B3B680C8BB7020C021E3D477F /* YTToast-dummy.m in Sources */,
+				60D439015E47EF5A4D53839A81A3AF6D /* YTToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D629928C71079948E90AF48398C69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647A2BEABCE1D7D1E1D73C3FFB6AD848 /* Pods-YTToast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F512CC3CDD15C5CE71C0B85739006F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7736ED876B22953764A11FCDD3DCE /* Pods-YTToast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2068CC06FF3C6F01FC7BB9F9155A7CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YTToast;
+			target = EC73A4A0ACA9CC1306A8FD41CABCF9E0 /* YTToast */;
+			targetProxy = C1CEF73E1554A4E51F331A4C89D3887B /* PBXContainerItemProxy */;
+		};
+		4AE59F2129B3478B35FC62C59F87BB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRToast;
+			target = 59CBA859A1ABC3C9CAE75886969B9592 /* CRToast */;
+			targetProxy = E1CE89C46E858E3A92524E586B66741C /* PBXContainerItemProxy */;
+		};
+		FB9918BF81E37BFB096E758334592D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRToast;
+			target = 59CBA859A1ABC3C9CAE75886969B9592 /* CRToast */;
+			targetProxy = 4C2B0382C3CE0192A4FD8182C95C8031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		337E14D07938D0188EFC1A91F754B5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC736C2965D5FC7443202188235221CD /* Pods-YTToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTToast_Tests/Pods-YTToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BCBE4A0E50333622AF5619E65F59885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A4D35609A215C8FB3469D2C822E437 /* Pods-YTToast_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTToast_Example/Pods-YTToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67DD1B3345C0FBA938A6BBDE95366F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE31EC8BB757798132570537B5CF5FCA /* CRToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRToast/CRToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CRToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD121C13BD700465283A29E9AF4B6374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8620F91BF19DB8C2B0ECE66D64B179C0 /* Pods-YTToast_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTToast_Example/Pods-YTToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D200910B1EEA8841E7AD1648A38114B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE31EC8BB757798132570537B5CF5FCA /* CRToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRToast/CRToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRToast/CRToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CRToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB181161E32222837EC3FB11834E2362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED11DA0844F33B09448B91C9DB1B1DD /* YTToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTToast/YTToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTToast/YTToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YTToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD4A18C1EA84CD103DD2F364F1BC84F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED11DA0844F33B09448B91C9DB1B1DD /* YTToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YTToast/YTToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YTToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YTToast/YTToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YTToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F674FB4D638FE4B0599B3F1A044779AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BBCF7D0D54905B0D6DB09BE4C5C3CB /* Pods-YTToast_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YTToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YTToast_Tests/Pods-YTToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YTToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87363C5F44CAAC943E025E5223F1516E /* Build configuration list for PBXNativeTarget "YTToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB181161E32222837EC3FB11834E2362 /* Debug */,
+				DD4A18C1EA84CD103DD2F364F1BC84F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05B26D132F3879F923727138D5D6947 /* Build configuration list for PBXNativeTarget "CRToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DD1B3345C0FBA938A6BBDE95366F72 /* Debug */,
+				D200910B1EEA8841E7AD1648A38114B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AB1DB9255339BD1D9345AE2949F0F8 /* Build configuration list for PBXNativeTarget "Pods-YTToast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD121C13BD700465283A29E9AF4B6374 /* Debug */,
+				3BCBE4A0E50333622AF5619E65F59885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFFA5A72DEA36CFE0CB66C3696011FA /* Build configuration list for PBXNativeTarget "Pods-YTToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337E14D07938D0188EFC1A91F754B5B5 /* Debug */,
+				F674FB4D638FE4B0599B3F1A044779AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

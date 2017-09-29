@@ -1,0 +1,19 @@
+PODS:
+  - CRToast (0.0.9)
+  - YTToast (0.1.0):
+    - CRToast (~> 0.0.9)
+
+DEPENDENCIES:
+  - YTToast (from `../`)
+
+EXTERNAL SOURCES:
+  YTToast:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  YTToast: 17d8fdde366007a4690b4d371a40b53080ae1130
+
+PODFILE CHECKSUM: 874c220b203623d8f4d778892c4c516b5f7cc8d5
+
+COCOAPODS: 1.2.1
